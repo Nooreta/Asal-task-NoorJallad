@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: auto;
+    overflow-x: hidden;
+}
+.side-bar
+{
+width: 7%;
+height: 100vh;
+background-color: royalblue;
+position: relative;
+
+}
+.side-bar i{
+    font-size: 30px;
+    margin:15px 30px 10px 30px;
+    color: #fff;
+}
+.side-bar span{
+    margin-left: 25px;
+    color: #fff;
+}
+.side-bar .span-1{
+    margin-left: 10px;
+   color: #fff;
+}
+
+.side-bar .setting-div
+{
+    position: absolute;
+    bottom: 10px;
+   }
+   .div-container{
+       width: 93%;
+        height: 100vh;
+        position: absolute;
+        top: 10px;
+        left: 100px;
+
+   }
+   
+   .div-1 {
+       width: 15.75%;
+       height: 400px;
+       background-color: lightgray;
+       position: relative;
+      }
+       .div-new
+      {
+          background-color: teal;
+          padding: 10px 15px;
+          color: #fff;
+          margin-bottom: 10px;
+          border-right: 10px solid sandybrown;
+      }
+       .div-contain1,.div-1 .div-contain2,.div-3 .div-contain2,.div-4 .div-contain2
+      {
+        width: 80%;
+        background-color: #fff;
+        padding: 10px 15px;
+        border-left:5px solid sandybrown ;
+        margin: 10px auto;
+      }
+      .div-1 .div-contain h5,.div-2 .div-contain h5,.div-3 .div-contain h5,.div-4 .div-contain h5  {
+          margin-bottom: 4px;
+          font-size: 18px;
+      }
+      .div-1 .div-contain h6,.div-2 .div-contain h6,.div-3 .div-contain h6,.div-4 .div-contain h6   {
+          margin-bottom: 7px;
+          margin-left: 7px;
+          font-size: 17px;
+          font-weight: lighter;
+      }
+      .div-1 .div-contain .div-contain3,.div-2 .div-contain .div-contain3,.div-3 .div-contain .div-contain3,.div-4 .div-contain .div-contain3  {
+         display: flex;
+         justify-content: space-between;
+
+      }
+      .div-1 .div-contain .div-contain3 i,.div-2 .div-contain .div-contain3 i,.div-3 .div-contain .div-contain3 i,.div-4 .div-contain .div-contain3 i   {
+          font-size: 20px;
+      }
+      .div-1 .div-contain .div-contain3 i:nth-child(1),.div-2 .div-contain .div-contain3 i:nth-child(1),.div-3 .div-contain .div-contain3 i:nth-child(1),.div-4 .div-contain .div-contain3 i:nth-child(1) 
+     {
+          color: royalblue;
+      }
+      .div-1 .div-contain .div-contain3 i:nth-child(2),.div-2 .div-contain .div-contain3 i:nth-child(2),.div-3 .div-contain .div-contain3 i:nth-child(2),.div-4 .div-contain .div-contain3 i:nth-child(2) 
+      {
+          color: seagreen;
+      }
+      .div-1 .div-contain .div-contain3 i:nth-child(3),.div-2 .div-contain .div-contain3 i:nth-child(3),.div-3 .div-contain .div-contain3 i:nth-child(3),.div-4 .div-contain .div-contain3 i:nth-child(3) 
+      {
+          color: blueviolet;
+      }
+      .div-1 .div-contain .div-contain3 i:nth-child(4),.div-2 .div-contain .div-contain3 i:nth-child(4),.div-3 .div-contain .div-contain3 i:nth-child(4), .div-4 .div-contain .div-contain3 i:nth-child(4) 
+       {
+          color: crimson;
+      }
+      .div-1 .div-contain .div-contain3 i:nth-child(5),.div-2 .div-contain .div-contain3 i:nth-child(5),.div-3 .div-contain .div-contain3 i:nth-child(5),.div-4 .div-contain .div-contain3 i:nth-child(5) 
+      {
+          color: darkgray;
+      }
+      .div-tail
+      {  width: 100%;
+        position: absolute;
+        text-align: center;
+        bottom: 0;
+        padding: 10px;
+        background-color: darkorange;
+        box-sizing: border-box;
+      }
+      .div-tail i{
+        color: darkorange;
+        background-color: #000;
+        border-radius: 50%;
+        border: 1px solid #000;
+      }
+      .div-tail span
+      {
+          font-size: 18px;
+          font-weight: 600;
+      }
+      .div-2 {
+        width: 15.75%;
+        height: 400px;
+        background-color:rgb(250, 219, 135);
+        position: absolute;
+        top: 38px;
+        left: 205px;
+       }
+       .div-3{
+        width: 15.75%;
+        height: 400px;
+        background-color:mistyrose;
+        position: absolute;
+        top: 38px;
+        left: 410px;  
+       }
+       .div-4{
+        width: 15.75%;
+        height: 400px;
+        background-color:rgb(144, 238, 202);
+        position: absolute;
+        top: 38px;
+        left: 615px;  
+       }
+       .div-5{
+        width: 31.5%;
+        height: 600px;
+        background-color:rgb(250, 240, 247);
+        position: absolute;
+        padding: 15px;
+        top: 38px;
+        left:820px;   
+       }
+       .div-5 .div-5-1 i
+       {
+         color: rgb(255, 145, 0);
+
+       }
+       .div-5 .span-1
+       {
+           color: rgb(211, 211, 211);
+       }
+        .div-5 .span-2
+       {
+           margin-left: 10px;
+           font-size: 18px;
+           font-weight: lighter;
+       }
+       .div-5 .div-5-1 .span-2{
+       font-weight: bold;
+       font-size: 18px;
+       margin-left: 10px;
+        }
+        .div-5 .div-5-1,.div-5-2,.div-5-3,.div-5-4,.attachments{
+            margin-bottom: 7px;
+        }
+        .attachments .span-1{
+            margin-right: 10px;
+        }
+        .description{
+            margin-bottom: 20px;
+        }
+        .description p{
+            font-size: 18px;
+        }
+       .member{
+         overflow: auto;
+         margin-bottom: 20px;
+         font-size: 18px;
+       }
+       .span-member{
+           float: left;
+           color:  rgb(211, 211, 211);
+           margin-right: 10px;
+       }
+       .icon-div
+       {
+           float: left;
+           width: 80%;
+           display: flex;
+           justify-content: space-around;
+           font-size: 20px;
+
+       }
+       .div-5 .icon-div i:nth-child(1)
+        {
+            color: royalblue;
+            
+        }  
+        .div-5 .icon-div i:nth-child(2)
+        {
+            color: seagreen;
+        }   
+        .div-5 .icon-div i:nth-child(3)
+        {
+            color: blueviolet;
+        }   
+        .div-5 .icon-div i:nth-child(4)
+        {
+            color: crimson;
+        }   
+        .div-5 .icon-div i:nth-child(5)
+        {
+            color: darkgray;
+        }   
+        .text-area textarea{
+            border: 2px dotted #000;
+        }
+
